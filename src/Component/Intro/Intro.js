@@ -30,13 +30,14 @@ const Intro = () => {
         </a>
         </div>
         <div className="i-icons">
-          <img className='github' src={Github} alt="" />
-          <img src={Facebook} alt="" />
-          <img src={LinkedIn} alt="" />
+          <a href="https://github.com/Robiul92" target='_blank' rel="noreferrer"><img  src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/robiulawalbd/" target='_blank' rel="noreferrer"><img  src={LinkedIn} alt="" /></a>
+          <a href="https://www.facebook.com/robiulawalbd/" target='_blank' rel="noreferrer"><img className='facebook' src={Facebook} alt="" /></a>
+          
         </div>
         </div>
         {/* right image side */}
-      <div className="i-right">
+      <div className="i-right sm:none">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />

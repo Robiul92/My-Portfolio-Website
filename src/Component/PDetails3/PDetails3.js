@@ -37,6 +37,8 @@ const PDetails3 = () => {
                 <p>Electric-saw manufacturer can register/login and sell their parts online, worldwide. This app is fully reponsive</p>
                 <div className='text-center'>
                     <button className='btn button btn-primary rounded ' > <a className='text-decoration-none ' href="https://electric-saw.web.app/" target="_blank" rel="noreferrer"><span className='text-white'>Live Demo</span></a></button>
+                    <button className='btn button btn-primary rounded m-2' > <a className='text-decoration-none ' href="https://github.com/Robiul92/-manufacturer-website-client-side" target="_blank" rel="noreferrer"><span className='text-white'>Clinte Side</span></a></button>
+                    <button className='btn button btn-primary rounded ' > <a className='text-decoration-none ' href="https://github.com/Robiul92/-manufacturer-website-server-side" target="_blank" rel="noreferrer"><span className='text-white'>Server</span></a></button>
                 </div>
 
             </div>
@@ -45,10 +47,13 @@ const PDetails3 = () => {
                 <h2>Features and Functionality</h2>
                 <ul>
                     <li>Header Section</li>
-                    <li>Service details</li>
+                    <li>Product details</li>
+                    <li>Review section</li>
+                    <li>Banner section</li>
                     <li>Protected Ceckout Page</li>
                     <li>Email password and Google based login system</li>
-                    <li>Safety Guidelines</li>
+                    <li>Nasted Dashbord</li>
+                    <li>Admin Login</li>
                 </ul>
             </div>
             <div className='pt-2 pb-5'>
@@ -62,9 +67,13 @@ const PDetails3 = () => {
                     <li>React Router</li>
                     <li>Firebase Authentication</li>
                     <li>React Firebase Hooks</li>
-                    <li>React-bootstrap</li>
+                    
                     <li>imgbb</li>
                     <li>React-toastify</li>
+                    <li>React hook from</li>
+                    <li>React Icons</li>
+                    <li>Node.Js</li>
+                    <li>MongoDb</li>
                 </ul>
             </div>
         </div>

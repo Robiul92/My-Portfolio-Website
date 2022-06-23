@@ -30,23 +30,23 @@ const Header = () => {
   <Navbar collapseOnSelect expand="lg" bg="white" variant="light" sticky="top">
   <Container>
   <Navbar.Brand as={Link} to="/">
-     <span> ROBIUL AWAL</span>
+     <span className='btn btn-warning'> <strong>ROBIUL AWAL</strong></span>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="justify-content-end flex-grow-1">
 
-    <Nav.Link as={Link} to="Home">Home</Nav.Link>
+    <Nav.Link as={Link} to="Home"><b>Home</b></Nav.Link>
     
-      <Nav.Link  as={Link} to="home#projects" smooth>Projects</Nav.Link>
-      <Nav.Link  as={Link} to="home#skills" smooth>Skills</Nav.Link>
-      <Nav.Link  as={Link} to="home#contract" smooth>Contract</Nav.Link>
+      <Nav.Link  as={Link} to="home#projects" smooth><b>Projects</b></Nav.Link>
+      <Nav.Link  as={Link} to="home#skills" smooth><b>Skills</b></Nav.Link>
+      <Nav.Link  as={Link} to="home#contract" smooth><b>Contract</b> </Nav.Link>
       
-      <Nav.Link as={Link} to="blog">Blog</Nav.Link>
+      <Nav.Link as={Link} to="blog"><b>Blog</b></Nav.Link>
       
     </Nav>
     <Nav className='me-auto'>
-      <Nav.Link as={Link} to="about">About</Nav.Link>
+      <Nav.Link as={Link} to="about"><b>About</b></Nav.Link>
      
     </Nav>
   </Navbar.Collapse>

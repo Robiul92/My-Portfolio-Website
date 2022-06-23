@@ -37,6 +37,7 @@ const PDetails1 = () => {
         <p>It's a home made catering web app where customers can order their favorite food items. Every customer must need to login to order any food items. This app is fully reponsive</p>
         <div className='text-center'>
         <button className='btn button btn-primary rounded ' > <a className='text-decoration-none ' href="https://personal-portfolio-8404f.web.app" target="_blank" rel="noreferrer"><span className='text-white'>Live Demo</span></a></button>
+        <button className='btn button btn-primary rounded m-2' > <a className='text-decoration-none ' href="https://github.com/Robiul92/-independent-service-provider" target="_blank" rel="noreferrer"><span className='text-white'>Client</span></a></button>
         </div>
        
         </div>

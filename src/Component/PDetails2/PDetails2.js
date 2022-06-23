@@ -39,6 +39,8 @@ const PDetails2 = () => {
                 <p>This is A Fartunere warehouse website to store and deliver Furniture. This app is fully reponsive</p>
                 <div className='text-center'>
                     <button className='btn button btn-primary rounded ' > <a className='text-decoration-none ' href="https://simple-warehouse.web.app/" target="_blank" rel="noreferrer"><span className='text-white'>Live Demo</span></a></button>
+                    <button className='btn button btn-primary rounded m-2' > <a className='text-decoration-none ' href="https://github.com/Robiul92/-warehouse-management-client-side" target="_blank" rel="noreferrer"><span className='text-white'>Clinte</span></a></button>
+                    <button className='btn button btn-primary rounded ' > <a className='text-decoration-none ' href="https://github.com/Robiul92/warehouse-management-server-side" target="_blank" rel="noreferrer"><span className='text-white'>Server</span></a></button>
                 </div>
 
             </div>
@@ -47,10 +49,10 @@ const PDetails2 = () => {
                 <h2>Features and Functionality</h2>
                 <ul>
                     <li>Header Section</li>
-                    <li>Service details</li>
-                    <li>Protected Ceckout Page</li>
+                    <li>Inventory Management</li>
+                    <li>Protected Item details Page</li>
                     <li>Email password and Google based login system</li>
-                    <li>Safety Guidelines</li>
+                    <li>Restock Page</li>
                 </ul>
             </div>
             <div className='pt-2 pb-5'>
@@ -67,6 +69,9 @@ const PDetails2 = () => {
                     <li>React-bootstrap</li>
                     <li>imgbb</li>
                     <li>React-toastify</li>
+                    <li>Mongodb</li>
+                    <li>Nodemon</li>
+                    <li>Node.js</li>
                 </ul>
             </div>
         </div>
