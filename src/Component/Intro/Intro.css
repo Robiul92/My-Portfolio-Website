@@ -1,0 +1,83 @@
+.Intro {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+  }
+
+  .i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .i-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .child1 {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .child2 {
+    color: orange;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .child3 {
+    font-weight: 100;
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+  }
+  .i-icons {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+  }
+  .i-icons img {
+    transform: scale(0.35);
+    
+  }
+
+  .i-button {
+    background-color: blue;
+  }
+ 
+  .i-icons > *:hover {
+    cursor: pointer;
+  }
+
+  .i-right {
+    flex: 1;
+    position: relative;
+  }
+  .i-right > * {
+    position: absolute;
+    z-index: 1;
+  }
+  .i-right > :nth-child(1) {
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+  }
+  .i-right > :nth-child(2) {
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+  }
+  .i-right > :nth-child(3) {
+    transform: scale(1.4);
+    left: 28%;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .Intro {
+      flex-direction: column;
+      gap: 7rem;
+      height: 64rem;
+    }
+  }
