@@ -26,7 +26,7 @@ const Projects = () => {
 
       <div>
         <CardGroup>
-          <Card className='m-2'>
+          <Card className='m-3 p-3'>
             <Card.Img variant="top" src={homefoodi} />
             <Card.Body>
               <Card.Title>Home food catering</Card.Title>
@@ -36,7 +36,7 @@ const Projects = () => {
             </Card.Body>
             <button className='btn button btn-primary i-button  rounded' onClick={firstPdetails}>Project Details</button>
           </Card>
-          <Card className='m-2'>
+          <Card className='m-3 p-3'>
             <Card.Img variant="top" src={warehouse} />
             <Card.Body>
               <Card.Title>Funniture Warehouse</Card.Title>
@@ -46,7 +46,7 @@ const Projects = () => {
             </Card.Body>
             <button className='btn button i-button btn-primary rounded' onClick={secondPdetails}>Project Details</button>
           </Card>
-          <Card className='m-2'>
+          <Card className='m-3 p-3'>
             <Card.Img variant="top" src={saw} />
             <Card.Body>
               <Card.Title>Electric Saw WebApp</Card.Title>
